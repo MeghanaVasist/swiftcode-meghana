@@ -16,7 +16,7 @@ public class NewsAgentService {
         try {
             WSRequest queryRequest = WS.url("https://api.api.ai/api/query");
             CompletionStage<WSResponse> responsePromise = queryRequest
-                    .setQuertParameter("v","20150910")
+                    .setQueryParameter("v","20150910")
                     .setQueryParameter("query",query)
                     .setQueryParameter("lang","en")
                     .setQueryParameter("sessionId",sessionId.toString())
