@@ -9,7 +9,7 @@ body {
 
 #message-pane {
     background-color: #acc65d;
-    background-image: url("/assets/images/bg1.gif");
+    background-image: url("/assets/images/bg.gif");
     background-repeat: no-repeat;
     background-size: cover;
     font-family: 'Hi Melody', cursive;
@@ -28,5 +28,12 @@ body {
     max-width: 75%;
     border-radius: 10px;
     padding: 10px;
-    font-size: 14px;
+    font-size: 20px;
+}
+
+.message-time {
+    margin-top: 4px;
+    float: right;
+    color: #4e535b;
+    font-size: 15px;
 }
