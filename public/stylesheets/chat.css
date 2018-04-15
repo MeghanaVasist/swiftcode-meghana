@@ -4,10 +4,15 @@ body {
     padding: 0px;
     margin: 0px;
     overflow: hidden;
+    font-family: 'Hi Melody', cursive;
 }
 
 #message-pane {
     background-color: #acc65d;
+    background-image: url("/assets/images/bg1.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Hi Melody', cursive;
 }
 
 #form-card {

@@ -6,13 +6,14 @@
     <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.0/angular-material.min.css">
     <link rel="stylesheet" href="/assets/stylesheets/chat.css"> `
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">`
+    <link href="https://fonts.googleapis.com/css?family=Hi+Melody" rel="stylesheet">
 </head>
 
 <body ng-app="chatApp" ng-controller="chatController" layout="row" layout-align="center stretch">
     <md-card layout="column" flex="none" style="width: 800px">
         <md-content id="message-pane" layout="column" flex="90">
             <div ng-repeat="msg in messages" layout="column" layout-align="{{ msg.sender == 'BOT' ? 'start start' : 'start end'}}">
-                <md-card class="message-card" ng-style="msg.sender == 'BOT' ? {'background-color': '#c6795d'} : {'background-color': '#426aa5'}">
+                <md-card class="message-card" ng-style="msg.sender == 'BOT' ? {'background-color': '#3ec18a'} : {'background-color': '#b1bf35'}">
                     <span>{{msg.text}}</span>
                 </md-card>
             </div>
